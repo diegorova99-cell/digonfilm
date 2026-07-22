@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+nav {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
