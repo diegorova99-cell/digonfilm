@@ -11,6 +11,11 @@ nav {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 10;
 }
 
 nav a {
@@ -21,8 +26,9 @@ nav a {
 
 .hero img {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100vh;
+    object-fit: cover;
+    margin-top: 80px; /* para que no tape el menú */
 }
 
 .grid {
